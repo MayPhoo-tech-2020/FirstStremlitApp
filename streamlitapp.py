@@ -1,7 +1,7 @@
 # streamlit_app.py
 
 import streamlit as st
-import MySQLdb as db
+
 # Initialize connection.
 conn = st.experimental_connection('mysql', type='sql')
 
